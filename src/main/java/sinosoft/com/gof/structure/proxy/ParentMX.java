@@ -1,4 +1,4 @@
-package sinosoft.com.structure.proxy;
+package sinosoft.com.gof.structure.proxy;
 
 
 public interface ParentMX {

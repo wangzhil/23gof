@@ -1,4 +1,4 @@
-package sinosoft.com.structure.proxy.second;
+package sinosoft.com.gof.structure.proxy.second;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
