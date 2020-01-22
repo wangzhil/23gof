@@ -1,4 +1,4 @@
-package sinosoft.com.decorator;
+package sinosoft.com.structure.decorator;
 
 /**
  * 装饰模式

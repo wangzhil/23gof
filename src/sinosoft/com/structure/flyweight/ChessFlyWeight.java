@@ -1,4 +1,4 @@
-package sinosoft.com.flyweight;
+package sinosoft.com.structure.flyweight;
 
 public interface ChessFlyWeight {
     void setColor(String c);
@@ -21,7 +21,7 @@ class CreateChessFlyWeight implements ChessFlyWeight {
 	}
 	@Override
 	public void display(Coordinate coordinate) {
-		System.out.println("Æå×ÓÑÕÉ«:"+color);
-		System.out.println("Æå×Ó×ø±ê£ºx="+coordinate.getX()+",y="+coordinate.getY());
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«:"+color);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê£ºx="+coordinate.getX()+",y="+coordinate.getY());
 	}
 }

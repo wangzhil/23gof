@@ -1,4 +1,4 @@
-package sinosoft.com.flyweight;
+package sinosoft.com.structure.flyweight;
 
 import java.util.HashMap;
 import java.util.Map;
