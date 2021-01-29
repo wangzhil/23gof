@@ -14,9 +14,9 @@ public class ClientTest {
 
     public static void main(String[] args) {
 
-        TestProxyHandler testProxyHandler = new TestProxyHandler(new ProxyTestBImpl());
+        TestProxyHandler testProxyHandler = new TestProxyHandler(new ProxyTestAImpl());
         ProxyTestInterface proxyTestInterface = (ProxyTestInterface) Proxy.newProxyInstance(ClassLoader.getSystemClassLoader(),
-                ProxyTestBImpl.class.getInterfaces(),
+                ProxyTestAImpl.class.getInterfaces(),
                 testProxyHandler);
 
         proxyTestInterface.demandAnalysis();
