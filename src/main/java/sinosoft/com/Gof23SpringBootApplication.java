@@ -2,6 +2,8 @@ package sinosoft.com;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import sinosoft.com.spring.InitIoc;
+import sinosoft.com.spring.IocBeanFactory;
 
 /**
  * @author wangzhilei
@@ -13,6 +15,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class Gof23SpringBootApplication {
+
+    private InitIoc initIoc = (InitIoc) new IocBeanFactory().getInstance();
 
     public static void main(String[] args) {
         SpringApplication.run(Gof23SpringBootApplication.class, args);
